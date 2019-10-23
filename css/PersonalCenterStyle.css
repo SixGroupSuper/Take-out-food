@@ -1,0 +1,21 @@
+img {
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.i-center {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #d48080;
+    padding: 10px;
+}
