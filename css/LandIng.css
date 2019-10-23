@@ -1,0 +1,80 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: rgb(252, 214, 0);
+}
+
+.bgDiv {
+    width: 547px;
+    height: 403px;
+    overflow: hidden;
+}
+
+.login {
+    width: 35%;
+    height: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.logoImg {
+    display: block;
+    margin: auto;
+    width: 35%;
+}
+
+.username,
+.pwd,
+.forgetPwd {
+    width: 50%;
+    height: 60px;
+    border-bottom: 1px solid #f8b7b7;
+    margin: 0 28px;
+    margin: auto;
+}
+
+.userImg,
+.pwdImg {
+    width: 7%;
+    float: left;
+}
+
+.center {
+    width: 60%;
+    height: 50%;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+
+.forgetPwd {
+    border: none;
+    line-height: 58px;
+    color: #3e82bf;
+    font-size: 16px;
+}
+
+.forgetLink {
+    padding-left: 5px;
+}
+
+.btn {
+    width: 364px;
+    height: 40px;
+    background: #4892ff;
+    border: 1px solid #326dcc;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 30px;
+}

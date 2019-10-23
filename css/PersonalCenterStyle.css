@@ -16,6 +16,16 @@ img {
     text-align: center;
     margin: auto;
     width: 50%;
-    border: 3px solid #d48080;
+    border: 3px solid #a09e9e;
     padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.img-icon {
+    float: right;
+    width: 3%;
 }
