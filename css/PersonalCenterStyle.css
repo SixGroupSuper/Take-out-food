@@ -4,6 +4,24 @@ img {
     width: 35%;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    background: #ffffff;
+}
+
+body {
+    background: rgb(248, 182, 0);
+}
+
+h2,
+h3 {
+    color: #ffffff;
+}
+
 .img-circle {
     border-radius: 50%;
 }
@@ -18,11 +36,6 @@ img {
     width: 50%;
     border: 3px solid #a09e9e;
     padding: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
 }
 
 .img-icon {
