@@ -2,22 +2,18 @@ a {
     text-decoration: none;
 }
 
-li {
-    list-style: none;
-}
-
 body {
     background: rgb(252, 214, 0);
 }
 
 .bgDiv {
-    width: 547px;
-    height: 403px;
+    width: 50%;
+    height: 400px;
     overflow: hidden;
 }
 
 .login {
-    width: 35%;
+    width: 45%;
     height: 50%;
     background: #fff;
     position: absolute;
@@ -38,9 +34,9 @@ body {
 .pwd,
 .forgetPwd {
     width: 50%;
-    height: 60px;
-    border-bottom: 1px solid #f8b7b7;
-    margin: 0 28px;
+    height: 50px;
+    border-bottom: 1px solid #04c0fa;
+    margin: 0 30px;
     margin: auto;
 }
 
@@ -66,15 +62,20 @@ body {
 }
 
 .forgetLink {
-    padding-left: 5px;
+    padding-left: 10px;
+}
+
+.i-forgetLink {
+    padding-left: 60px;
 }
 
 .btn {
-    width: 364px;
+    width: 50%;
     height: 40px;
     background: #4892ff;
-    border: 1px solid #326dcc;
+    border: 1px solid #ffffff;
     color: #fff;
-    font-size: 16px;
-    margin-left: 30px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
 }
