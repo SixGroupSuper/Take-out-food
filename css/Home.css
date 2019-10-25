@@ -78,7 +78,7 @@ ul{
    /*  border: 1px red solid; */
     width: 190px;
     height: 90px;
-    margin: 9px 0 8px 145px;
+    margin: 9px 0 8px 180px;
 }
 .index-header .logo-set #logo-img{
     width: 100%;
@@ -105,6 +105,7 @@ ul{
     height: 40px;
     padding-top: 5px;
     border: 2px solid #FA0;
+    border-radius:25px;
 }
 .index-header .index-layout .search .search-btn{
     font-size: 18px;
@@ -114,4 +115,23 @@ ul{
     font-weight: bold;
     letter-spacing: 2px;
     color: #FFF;
+    border-radius:25px;
+}
+.index-header .index-right{
+    float: right;
+    border: 1px red solid;
+    width: 350px;
+    height: 95px; 
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.index-header .index-right-a2{
+    float: right;
+    border: 1px red solid;
+    width: 120px;
+    height: 95px; 
+}
+.index-header .yale #imgs{
+    width: 100%;
+    height: 100%;
 }
