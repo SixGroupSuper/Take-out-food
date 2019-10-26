@@ -1,72 +1,85 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font: 12px/1.125 Microsoft Yahei,Arial,Helvetica,sans-serif;
+    font: 12px/1.125 Microsoft Yahei, Arial, Helvetica, sans-serif;
 }
-.csr-header{
-   height: 70px; 
-   width: 100%;
-   align-items: center;
-   position: fixed;
-   /* border: 1px solid red; */
-   opacity: 1;
-   overflow: hidden;
-   z-index: 9999;
+
+.csr-header {
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    /* border: 1px solid red; */
+    opacity: 1;
+    overflow: hidden;
+    z-index: 9999;
 }
-.csr-header .header-content{
-   height: 100%;
-   width: 990px;
-   margin: 0 auto;
-   position: relative;
-   display: flex;
-   align-items: center ;
+
+.csr-header .header-content {
+    height: 100%;
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
-.csr-header .header-content img{
+
+.csr-header .header-content img {
     width: 48px;
     height: 48px;
     display: flex;
     color: #FFFFFF;
 }
-#right{
+
+#right {
     margin-left: 220px;
 }
-.header-content ul{
+
+.header-content ul {
     display: flex;
     font-size: 16px;
     height: 70px;
 }
-ul{
+
+ul {
     padding-left: 0;
     list-style-type: none;
 }
-.header-content ul li{
+
+.header-content ul li {
     height: 67px;
     margin-left: 40px;
     top: 0;
 }
-.header-content ul li a{
+
+.header-content ul li a {
     display: flex;
     height: 100%;
     align-items: center;
     font-size: 16px;
 }
-.header-content ul li .nav{
-    color: 	#FFFFFF;
+
+.header-content ul li .nav {
+    color: #FFFFFF;
 }
-.header-content ul li #active{
+
+.header-content ul li #active {
     border-bottom: 3px solid #FFBD27;
     font-weight: 700;
 }
-.header-content ul li a:hover{
+
+.header-content ul li a:hover {
     border-bottom: 3px solid #FFBD27;
 }
-.inner-wrap .headpic{
+
+.inner-wrap .headpic {
     height: 493px;
-    width: 100;
+    width: 100%;
     background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572483943&di=5e1347831794189c9841c4613b1080c6&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01a5c55bded3aea8012092523213ed.jpg%403000w_1l_2o_100sh.jpg) no-repeat;
     background-size: 100% 100%;
 }
-.index-header{
+
+.index-header {
     position: relative;
     width: 100%;
     height: 110px;
@@ -74,41 +87,48 @@ ul{
     margin: 12px 0 10px 0;
     background-color: #F5F5F5;
 }
-.index-header .logo-set{
+
+.index-header .logo-set {
     float: left;
-   /*  border: 1px red solid; */
+    /*  border: 1px red solid; */
     width: 190px;
     height: 90px;
     margin: 9px 0 8px 180px;
 }
-.index-header .logo-set #logo-img{
+
+.index-header .logo-set #logo-img {
     width: 100%;
     height: 100%;
 }
-.index-header .index-layout{
+
+.index-header .index-layout {
     position: absolute;
-    height: 100%;                                          
+    height: 100%;
     width: 600px;
     left: 300px;
-   /*  border: 1px red solid; */
+    /*  border: 1px red solid; */
 }
-.index-header .index-layout .search{
+
+.index-header .index-layout .search {
     display: inline;
     line-height: 50px;
     float: right;
-    margin: 35px 40px 0 ;
+    margin: 35px 40px 0;
 }
-.index-header .index-layout .search #word{
+
+.index-header .index-layout .search #word {
     width: 515px;
 }
-.index-header .index-layout .search .search-keyword{
+
+.index-header .index-layout .search .search-keyword {
     width: 390px;
     height: 40px;
     padding-top: 5px;
     border: 2px solid #FA0;
-    border-radius:25px;
+    border-radius: 25px;
 }
-.index-header .index-layout .search .search-btn{
+
+.index-header .index-layout .search .search-btn {
     font-size: 18px;
     background: #F90;
     width: 120px;
@@ -116,38 +136,43 @@ ul{
     font-weight: bold;
     letter-spacing: 2px;
     color: #FFF;
-    border-radius:25px;
+    border-radius: 25px;
 }
-.index-header .index-east{
+
+.index-header .index-east {
     position: relative;
     /* border: 1px red solid; */
     margin-left: 1010px;
     width: 625px;
     height: 100px;
 }
-.index-header .index-right{
+
+.index-header .index-right {
     float: right;
     border: 1px red solid;
     width: 350px;
-    height: 95px; 
+    height: 95px;
     margin-right: 15px;
     margin-left: 15px;
 }
-.index-header .index-right-a2{
+
+.index-header .index-right-a2 {
     float: right;
     border: 1px red solid;
     width: 120px;
-    height: 95px; 
+    height: 95px;
 }
-.index-header .yale #imgs{
+
+.index-header .yale #imgs {
     width: 100%;
     height: 100%;
 }
-.middle{
+
+.middle {
     margin: 0 230px;
 }
 
-.carousel .carousel-inner .item .imglg{
+.carousel .carousel-inner .item .imglg {
     display: block;
     margin: auto;
     width: 100%;
