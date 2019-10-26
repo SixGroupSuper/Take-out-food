@@ -13,6 +13,7 @@
     opacity: 1;
     overflow: hidden;
     z-index: 9999;
+    /* background-color:#000000; */
 }
 
 .csr-header .header-content {
@@ -142,7 +143,7 @@ ul {
 .index-header .index-east {
     position: relative;
     /* border: 1px red solid; */
-    margin-left: 1010px;
+    margin-left: 865px;
     width: 625px;
     height: 100px;
 }
@@ -169,7 +170,7 @@ ul {
 }
 
 .middle {
-    margin: 0 230px;
+    margin: 0 240px;
 }
 
 .carousel .carousel-inner .item .imglg {
