@@ -37,7 +37,7 @@
     <nav>
         <div class="csr-header">
             <div class="header-content">
-                <a href="#" id="left"><img
+                <a href="#" id="imgleft"><img
                         src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571889618793&di=02927e3c42e9619b9b0ca70f6753679e&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F03%2F44%2F03%2F5ba253b009ac4_610.jpg"
                         alt=""></a>
                 <div id="right">
@@ -94,40 +94,44 @@
     </div>
 
 
+    <div class="middle">
+        <div id="myCarousel" class="carousel slide">
 
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
-   <div id="myCarousel" class="carousel slide">
-
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <div class="carousel-inner">
-            <div class="item active" href="#">
-                <img src="./img/01.jpg" alt="">
+            <div class="carousel-inner">
+                <div class="item active" href="#">
+                    <img class="imglg"
+                        src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572062031719&di=2d8d165c1352abf74fb728289e43d80b&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F7LsWdDW5_xN3otqbppnN2DJv%2Fzhidao%2Fpic%2Fitem%2F32fa828ba61ea8d377e2601a900a304e241f58ef.jpg"
+                        alt="">
+                </div>
+                <div class="item" href="#">
+                    <img class="imglg" src="./img/02.jpg" alt="">
+                </div>
+                <div class="item" href="#">
+                    <img class="imglg" src="./img/03.jpg" alt="">
+                </div>
             </div>
-            <div class="item" href="#">
-                <img src="./img/02.jpg" alt="">
-            </div>
-            <div class="item" href="#">
-                <img src="./img/03.jpg" alt="">
-            </div>
+
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
         </div>
-
-
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-        </a>
     </div>
 
-    <!--    <div class="common-list">
+
+
+    <!--  <div class="common-list">
         <div class="sort-option">
             <div  class="tag-group tag-group-sort">
 
@@ -157,7 +161,7 @@
             </div>
         </div>
     </div> -->
-   <!--  <div class="card-deck">
+    <div class="card-deck">
 
         <div class="card">
             <div class="col-md-3">
@@ -200,12 +204,12 @@
         </div>
 
 
-    </div> -->
+    </div>
 
 
 
 
-  <!--   <div class="card mb-3 ">
+    <!--   <div class="card mb-3 ">
         <div class="row no-gutters">
             <div class="col-md-4">
                 <img src="./img/01.jpg" class="card-img" alt="">
