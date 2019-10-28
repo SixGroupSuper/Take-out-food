@@ -74,7 +74,7 @@ ul {
 }
 
 .inner-wrap .headpic {
-    height: 533px;
+    height: 586px;
     width: 100%;
     background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572483943&di=5e1347831794189c9841c4613b1080c6&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01a5c55bded3aea8012092523213ed.jpg%403000w_1l_2o_100sh.jpg) no-repeat;
     background-size: 100% 100%;
@@ -94,7 +94,7 @@ ul {
     /*  border: 1px red solid; */
     width: 190px;
     height: 90px;
-    margin: 9px 0 8px 180px;
+    margin: 9px 0 8px 12.5%;
 }
 
 .index-header .logo-set #logo-img {
@@ -106,7 +106,7 @@ ul {
     position: absolute;
     height: 100%;
     width: 600px;
-    left: 300px;
+    left: 21%;
     /*  border: 1px red solid; */
 }
 
@@ -143,7 +143,7 @@ ul {
 .index-header .index-east {
     position: relative;
     /* border: 1px red solid; */
-    margin-left: 865px;
+    margin-left: 55%;
     width: 625px;
     height: 100px;
 }
@@ -173,12 +173,18 @@ ul {
     margin: 0 240px;
 }
 /* 轮播图的设置 */
+.background .slide{
+    padding: 0 240px;
+}
+
+
+
 
 .carousel .carousel-inner .item .imglg {
     display: block;
     margin: auto;
     width: 100%;
-    height: 371px;
+    height: 420px;
 }
 
 /* ------链接栏的css定义 ------*/
@@ -240,9 +246,9 @@ ul {
 /* 导航栏边距设置 */
 .card-deck{
     width: 100%;
-    height: 230px;
+    height: 350px;
     margin-top: 15px;
-    border: 1px red dashed;
+    /* border: 1px red dashed; */
     /* background-color: #F5F5F5; */
 }
 /* 导航栏 <p>标签字体设置 */
@@ -255,6 +261,9 @@ ul {
 
 
 /* 导航栏下的卡片组 */
+.afford-inner .list  .odd{
+  /*  margin-left: 5%; */
+}
 .afford-inner .list .item {
     float: left;
     width: 228px;
@@ -285,6 +294,14 @@ ul {
 .fl {
     float: left;
     display: inline;
+}
+/* 卡片伪类设置 */
+.afford-inner .item:hover{
+    border: 1px solid #FFA500;
+}
+.afford-inner .list .item .item-bd .button-t:hover{
+    background-color: #FFA500;
+    color: #FFFFFF;
 }
 .afford-inner .item .item-bd img {
     display: block;
@@ -317,6 +334,16 @@ ul {
     background-clip: padding-box;
     text-align: center;
 }
+/* ------长方形卡片-----内容区-------的设置 */
+.card .row{
+    border-bottom-color: #f4f4f4;
+    border-top-color: #f4f4f4;
+}
+.card .row .data-to .data-tite .card-title{
+    text-align: left;
+}
+
+
 /* 头部图片动画 */
 @keyframes fade-in {  
     0% {opacity: 0;}/*初始状态 透明度为0*/  
