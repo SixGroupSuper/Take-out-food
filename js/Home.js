@@ -1,14 +1,22 @@
-var changed_color="#000000";
+var changed_color="rgb(255, 255, 255)";
+//抓取头部的导航栏
 var header=document.getElementsByName("a")[0];
-console.log(header)
-//屏幕高度
-let screen_h = window.innerHeight
- //页面内容高度
- let body_h =  document.body.scrollHeight || document.documentElement.scrollHeight
- if(body_h>screen_h){
+console.log(header);
+var adiv=document.getElementsByClassName("nav")
+
+ window.onscroll = function() {     
+    if(window.scrollY==0){
+     //设置文档的背景颜色：
+     document.getElementsByName("a")[0].style.backgroundColor="transparent";
+     for (var i = 0; i < adiv.length; i++) {
+        adiv[i].style.color="#FFFFFF";
+     }
+    }
+    else{
      //设置文档的背景颜色：
      document.getElementsByName("a")[0].style.backgroundColor=changed_color
-    
- }else{
-  console.log('未超出一屏，不滚动')
+     for (var i = 0; i < adiv.length; i++) {
+         adiv[i].style.color="#333";
+      }
+    }
 }

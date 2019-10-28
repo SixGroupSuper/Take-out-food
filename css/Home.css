@@ -74,7 +74,7 @@ ul {
 }
 
 .inner-wrap .headpic {
-    height: 493px;
+    height: 533px;
     width: 100%;
     background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572483943&di=5e1347831794189c9841c4613b1080c6&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01a5c55bded3aea8012092523213ed.jpg%403000w_1l_2o_100sh.jpg) no-repeat;
     background-size: 100% 100%;
@@ -168,10 +168,11 @@ ul {
     width: 100%;
     height: 100%;
 }
-
+/* 内容中间 的设置 */
 .middle {
     margin: 0 240px;
 }
+/* 轮播图的设置 */
 
 .carousel .carousel-inner .item .imglg {
     display: block;
@@ -179,3 +180,157 @@ ul {
     width: 100%;
     height: 371px;
 }
+
+/* ------链接栏的css定义 ------*/
+/* 导航栏头部标签设置 */
+.card-deck .mod-hd {
+    color: #AD45Df;
+    border-bottom: 1px solid #f4f4f4;
+}
+.card-deck .mod-hd:before {
+    background-repeat: repeat-x;
+    background: #8558d6;
+    top: 14px\9;
+}
+.bar-hd:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 16px;
+    top: 16px;
+    left: 20px;
+}
+.card-deck .bar-hd {
+    position: relative;
+    padding-left: 32px;
+    margin-top: 5px;
+    line-height: 48px;
+    font-size: 20px;
+}
+.card-deck .bar-hd em{
+
+    line-height: 48px;
+    font-size: 20px;
+}
+
+
+
+.afford-inner .mod-hd {
+    color: #31ba98;
+    border-bottom: 1px solid #f4f4f4;
+}
+.afford-inner .mod-hd:before {
+    background-repeat: repeat-x;
+    background: #31ba98;
+    top: 14px\9;
+}
+
+.afford-inner .bar-hd {
+    position: relative;
+    padding-left: 32px;
+    margin-top: 5px;
+    line-height: 48px;
+    font-size: 20px;
+}
+.afford-inner .bar-hd em{
+
+    line-height: 48px;
+    font-size: 20px;
+}
+/* 导航栏边距设置 */
+.card-deck{
+    width: 100%;
+    height: 230px;
+    margin-top: 15px;
+    border: 1px red dashed;
+    /* background-color: #F5F5F5; */
+}
+/* 导航栏 <p>标签字体设置 */
+.card-deck .card .col-md-3 .card-text{
+   font-weight: bold;
+   font-size: 18px;
+   font-family: Wawati SC;
+   color: #000000;
+}
+
+
+/* 导航栏下的卡片组 */
+.afford-inner .list .item {
+    float: left;
+    width: 228px;
+    height: 200px;
+    border: 1px solid transparent;
+    border-bottom-color: #f4f4f4;
+    border-right-color: #f4f4f4;
+    padding-left: 20px;
+}
+.afford-inner .list .item .item-hd {
+    margin-top: 24px;
+    
+    line-height: 26px;
+    height: 26px;
+    font-weight: normal;
+    font-size: 18px;
+    
+}
+.afford-inner .list .item .nav-a{
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+.afford-inner .item .item-bd .fl {
+    margin-top: 10px;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.afford-inner .item .item-bd img {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+.afford-inner .item .item-bd .info {
+    margin-left: 128px;
+}
+.afford-inner .item .item-bd .title {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+.afford-inner .item .item-bd .subtitle {
+    font-size: 14px;
+    color: #999;
+    line-height: 22px;
+}
+.afford-inner .item .item-bd .info a {
+    margin-top: 13px;
+    display: block;
+    width: 76px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #ff5000;
+    color: #ff5000;
+    border-radius: 12px;
+    background-clip: padding-box;
+    text-align: center;
+}
+/* 头部图片动画 */
+@keyframes fade-in {  
+    0% {opacity: 0;}/*初始状态 透明度为0*/  
+    40% {opacity: 0;}/*过渡状态 透明度为0*/  
+    100% {opacity: 1;}/*结束状态 透明度为1*/  
+}  
+@-webkit-keyframes fade-in {/*针对webkit内核*/  
+    0% {opacity: 0;}  
+    40% {opacity: 0;}  
+    100% {opacity: 1;}  
+}  
+.headpic{    
+    animation: fade-in;/*动画名称*/  
+    animation-duration: 1.5s;/*动画持续时间*/  
+    -webkit-animation:fade-in 1.5s;/*针对webkit内核*/  
+}  
+
