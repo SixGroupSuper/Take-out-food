@@ -51,3 +51,123 @@ nav>ul>li a:hover {
     line-height: 15px;
     color: rgb(252, 222, 103);
 }
+
+
+/* 第一名 */
+
+
+/* .afford-inner .item:hover {
+    border: 1px solid #FFA500;
+}
+
+.afford-inner .list .item .item-bd .button-t:hover {
+    background-color: #FFA500;
+    color: #FFFFFF;
+}
+
+.afford-inner .item .item-bd img {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+
+.afford-inner .item .item-bd .info {
+    margin-left: 128px;
+}
+
+.afford-inner .item .item-bd .title {
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.afford-inner .item .item-bd .subtitle {
+    font-size: 14px;
+    color: #999;
+    line-height: 22px;
+}
+
+.afford-inner .item .item-bd .info a {
+    margin-top: 13px;
+    display: block;
+    width: 76px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #ff5000;
+    color: #ff5000;
+    border-radius: 12px;
+    background-clip: padding-box;
+    text-align: center;
+} */
+
+.card {
+    margin: 0 150px;
+    width: 60%;
+    text-align: left;
+}
+
+.card .row {
+    max-width: 62.5rem;
+}
+
+.card .row .col-md-4 {
+    height: 141px;
+    width: 350px;
+    margin-left: 20px;
+    /* margin-bottom: 30px; */
+    background-color: #000000;
+}
+
+.card .row .col-md-4 .card-img {
+    width: 141px;
+    height: 141px;
+}
+
+.card .row .data-to p,
+h3 {
+    color: black;
+}
+
+.card .row .data-to .data-tite .card-title {
+    text-align: left;
+}
+
+.card .row .data-to .data-tite .prompt-time {
+    display: inline;
+    font-weight: bold;
+    background-color: #32CD32;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.card .row .data-to .data-tite .The-rating {
+    width: 60%;
+    height: 25px;
+}
+
+.card .row .data-to .data-tite .The-rating .nav-t {
+    display: inline;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.card .row .data-to .data-tite .The-rating .distribution {
+    float: right;
+    background-color: #1E90FF;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.card .row .data-to .data-tite .The-rating .card-text,
+.when-from {
+    display: inline;
+}
+
+.card .row .data-to .data-tite .The-rating .when-from {
+    float: right;
+}
+
+.subscribe {
+    text-align: right;
+}
