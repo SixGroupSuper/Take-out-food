@@ -168,6 +168,13 @@ h3 {
     float: right;
 }
 
-.subscribe {
-    text-align: right;
+.subscribe p {
+    margin-right: 20%;
+    display: inline-table;
+}
+
+p .right {
+    position: absolute;
+    border: 3px solid #73AD21;
+    padding: 500px;
 }
