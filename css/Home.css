@@ -68,6 +68,9 @@ ul {
     border-bottom: 3px solid #FFBD27;
     font-weight: 700;
 }
+.header-content ul li #user{
+    color: #FF0000;
+}
 
 .header-content ul li a:hover {
     border-bottom: 3px solid #FFBD27;
