@@ -4,6 +4,13 @@ img {
     width: 25%;
 }
 
+body .background {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572502930980&di=51d0175e3587f1b663984d8b7dc512ea&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fblog%2F201310%2F04%2F20131004144740_H2u5V.jpeg');
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -14,7 +21,7 @@ p {
 }
 
 body {
-    background: rgb(248, 182, 0);
+    background: #ffffff(248, 182, 0);
 }
 
 
