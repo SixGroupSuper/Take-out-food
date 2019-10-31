@@ -75,9 +75,22 @@ ul {
 .header-content ul li a:hover {
     border-bottom: 3px solid #FFBD27;
 }
+.index-top{
+    z-index: 9999;
+    width: 35px;
+    height: 250px;
+    border: 1px red solid;
+}
+
+
+
+
+
 .haad-img{
     height: 350px;
     width: 1905px;
     background-size: 100% 100%;
     background: url(http://i3.shouyou.itc.cn/v3/news/2016/03/02/0302113334304877.jpg) no-repeat;
 }
+
+
