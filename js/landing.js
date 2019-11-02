@@ -1,4 +1,4 @@
-function fnLogin() {
+/* function fnLogin() {
     var oUname = document.getElementById("uname")
     var oUpass = document.getElementById("upass")
     var oError = document.getElementById("error_box")
@@ -24,4 +24,18 @@ function fnLogin() {
         return;
     }
     window.alert("登录成功")
+} */
+
+function isPasswd(){
+    var upass=document.getElementById("upass").value;
+    var patrn=/^[a-zA-Z]{1,30}$/;  
+    if(patrn.exec(upass)){
+        document.getElementById("tishi").innerHTML="<font color='red'>密码包括字母-数字</font>";
+        document.getElementById("submit").disabled = true;
+    }
+   else{
+       document.getElementById("tishi").innerHTML="<font color='green'>密码格式正确</font>";
+       document.getElementById("submit").disabled=false;
+   }
+
 }

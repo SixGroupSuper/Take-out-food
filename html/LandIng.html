@@ -27,14 +27,15 @@
                     </div>
                     <div class="input_outer">
                         <span class="us_uer"></span>
-                        <input id="upass" class="text" value="" type="password" placeholder="请输入密码">
+                        <input id="upass" class="text" value="" type="password" id="upass" onkeyup="isPasswd()" placeholder="请输入密码">
                     </div>
+                    <span id="tishi"></span>
                     <div class="errorText" id="error_box"><br></div>
                     <div>
                         <a href="../index.html">
                             <button onclick="fnLogin()" class="lb1">登录</button>
                         </a>
-                        
+                      
                     </div>
                     <div>
                         <a href="../html/Regist.html">
@@ -47,8 +48,9 @@
         </div>
     </div>
     <!-- /container -->
-    <script src="../js/landing.js"></script>
+   
     <div style="text-align:center;">
+        <script src="../js/landing.js"></script>
     </div>
 </body>
 

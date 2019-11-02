@@ -22,7 +22,7 @@
                     <h3>欢迎你</h3>
                     <div class="input_outer">
                         <span class="u_user"></span>
-                        <input id="uname" class="text" style="color: rgb(0, 0, 0) !important" type="text" placeholder="请输入账号">
+                        <input id="uname" class="text" name="name" style="color: rgb(0, 0, 0) !important" type="text" placeholder="请输入账号">
                     </div>
                     <div class="input_outer">
                         <span class="us_uer"></span>
@@ -30,12 +30,12 @@
                     </div>
                     <div class="input_outer">
                         <span class="us_uer"></span>
-                        <input id="upass1" class="text" style="color: rgb(0, 0, 0) !important; position:absolute; z-index:100;" value="" type="password" placeholder="请再次输入密码">
+                        <input id="upass1" class="text" onkeyup="validate()" style="color: rgb(0, 0, 0) !important; position:absolute; z-index:100;" value="" type="password" placeholder="请再次输入密码">
                     </div>
-
+                    <span id="tishi"></span>
                     <div class="errorText" id="error_box"><br></div>
                     <div>
-                        <button onclick="fnRegist()" class="lb2" style="color: rgb(0, 0, 0)">注册</button>
+                        <button class="lb2" id="submit" style="color: rgb(0, 0, 0)">注册</button>
                     </div>
 
                     
