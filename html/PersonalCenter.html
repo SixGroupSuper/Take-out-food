@@ -6,25 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/PersonalCenterStyle.css">
-    <link rel="stylesheet" href="../css/OrderQuery.css">
     <title>个人中心</title>
 </head>
 
 <body>
 
-    <div>
-        <nav>
-            <ul>
-                <a class="nav-title" href="#">订单</a>
-                <li><a href="#">全部订单</a></li>
-                <li><a href="#">待评价</a></li>
-                <li><a href="#">退款</a></li>
-                <li><a href="../index.html">主页</a></li>
-                <li><a href="../html/PersonalCenter.html">个人中心</a></li>
-            </ul>
-        </nav>
-
-    </div>
+    <nav>
+        <div class="csr-header" style="background-color: #000000;">
+            <div class="header-content">
+                <a href="#" id="imgleft" style="padding-left: 200px;"><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571889618793&di=02927e3c42e9619b9b0ca70f6753679e&imgtype=0&src=http%3A%2F%2Fpic.51yuansu.com%2Fpic3%2Fcover%2F03%2F44%2F03%2F5ba253b009ac4_610.jpg" alt=""></a>
+                <div id="right">
+                    <ul id="links">
+                        <li><a href="../index.html" class="nav">首页</a></li>
+                        <li><a href="../html/OrderQuery.html" class="nav">购物车</a></li>
+                        <li><a href="../html/PersonalCenter.html" class="nav" id="active">个人中心</a></li>
+                        <li><a href="#" class="nav">开放平台</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 
     <div id="layout-center">
@@ -34,9 +35,6 @@
                 <div class="mt-menu-tree">
                     <dl class="mt-menu-item">
                         <dt class="fs14">全部功能</dt>
-                        <dd>
-                            <a href="#">我的购物车</a>
-                        </dd>
                         <dd>
                             <a href="#">购买过的外卖</a>
                         </dd>
