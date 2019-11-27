@@ -6,78 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/PersonalCenterStyle.css">
+    <link rel="stylesheet" href="../css/OrderQuery.css">
     <title>个人中心</title>
 </head>
 
 <body>
-    <div class="background">
-        <div>
-            <img src="../img/PersonalCenter-1.jpg" class="img-circle">
-            <div class="center">
-                <h2>钟三</h2>
-                <h3>ID:123456</h3>
+
+    <div>
+        <nav>
+            <ul>
+                <a class="nav-title" href="#">订单</a>
+                <li><a href="#">全部订单</a></li>
+                <li><a href="#">待评价</a></li>
+                <li><a href="#">退款</a></li>
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="../html/PersonalCenter.html">个人中心</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+    <div id="layout-center">
+        <div class="grid-c2">
+
+            <div class="col-sub">
+                <div class="mt-menu-tree">
+                    <dl class="mt-menu-item">
+                        <dt class="fs14">全部功能</dt>
+                        <dd>
+                            <a href="#">我的购物车</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购买过的外卖</a>
+                        </dd>
+                        <dd>
+                            <a href="#">购买过的店铺</a>
+                        </dd>
+                        <dd>
+                            <a href="#">我的发票</a>
+                        </dd>
+                        <dd>
+                            <a href="#">我的收藏</a>
+                        </dd>
+                        <dd>
+                            <a href="#">我的积分</a>
+                        </dd>
+                        <dd>
+                            <a href="#">我的优惠信息</a>
+                        </dd>
+                        <dd>
+                            <a href="#">评价管理</a>
+                        </dd>
+                        <dd>
+                            <a href="#">退款维权</a>
+                        </dd>
+                    </dl>
+                </div>
             </div>
-        </div>
 
-        <div>
 
-            <p class="i-center">
-                <a href="../index.html">主页
-                        <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-                    </a>
-            </p>
-            <p class="i-center">
-                <a href="../html/OrderQuery.html">订单
-                        <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-                    </a>
-            </p>
-            <div>
-                <h4 class="center">信息设置</h4>
-                <p class="i-center">
-                    <a href="#">更改密码
-                <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-            </a>
-                </p>
-                <p class="i-center">
-                    <a href="#">更改电话
-                <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-            </a>
-                </p>
-                <p class="i-center">
-                    <a href="#">更改邮箱
-                <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-            </a>
-                </p>
-                <p class="i-center">
-                    <a href="#">更改密保问题
-                <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-            </a>
-                </p>
+
+            <div class="main-wrap">
+                <div class="m-userinfo">
+                    <div class="s-userbar s-bar">
+                        <div class="s-baseinfo">
+                            <a href="#">
+                                <img src="http://b-ssl.duitang.com/uploads/item/201208/30/20120830173930_PBfJE.jpeg">
+                            </a>
+                            <div class="s-name">
+                                <a href="#">
+                                    <em>钟三</em>
+                                </a>
+                            </div>
+                        </div>
+
+                        <ul class="s-my-stuffs">
+                            <li class="s-myalipay J_DropRoot">
+                                <a href="#">我的支付宝</a>
+                            </li>
+                            <li>
+                                <a href="#">我的优惠卷</a>
+                            </li>
+                            <li>
+                                <a href="#">我的收货地点</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="s-my-counts s-content">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>待支付</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>待发货</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>待收货</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>待评价
+                                                <em>5</em>
+                                            </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>退款</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="m-guess-you-like">
+                    <div class="s-bar">
+                        根据浏览，猜我喜欢
+                        <a href="#" class="i-load-more-item-shadow">
+                                    换一换
+                                </a>
+                    </div>
+                    <div class="s-content">
+                        <div class="s-inner-content">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <br>
 
-            <div>
-                <h4 class="center">钱包</h4>
-                <p class="i-center">
-                    <a href="#">关联支付宝
-                <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-            </a>
-                </p>
-                <p class="i-center">
-                    <a href="#">关联微信
-                <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-            </a>
-                </p>
-                <p class="i-center">
-                    <a href="#">关联银行卡
-                <img src="../img/PersonalCenter-方向.jpg" class="img-icon">
-            </a>
-                </p>
 
-            </div>
-        </div>
-        <div class="center">
-            <h3><a href="../html/LandIng.html">退出登陆</a></h3>
         </div>
     </div>
 
